@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Collab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <ul class="pages">
+    <li class="chat page">
+      <div class="roomButtons">
+         <button class="joinRoom" placeholder="Join Room"/>Join Room</button>
+         <br>
+         <button class="leaveRoom" placeholder="Leave Room"/>Exit Room</button>
+         <br>
+
+      </div>
+      <div class="chatArea">
+        <ul class="messages"></ul>
+      </div>
+      <input class="inputMessage" placeholder="Type here..."/>
+    </li>
+    <li class="usersList">
+      <div class="usersList">
+        <ul class="Users"></ul>
+      </div>
+    </li>
+    <li class="login page">
+      <div class="form">
+        <h3 class="title" id="loginPageTitle">Loading Collab...</h3>
+        <input class="usernameInput" type="text" maxlength="14" />
+      </div>
+    </li>
+    <li class="lobby page">
+      <div class="lobbyArea">
+        <h3 class="title">Welcome to the Lobby!</h3>
+      </div>
+    </li>
+  </ul>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="/jquery.cookie.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/function.js"></script>
+
+
+</body>
+</html>

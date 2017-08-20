@@ -1,0 +1,54 @@
+extends layout
+block content
+	div.center
+		div.column
+			h3 Online Users
+			input.search(id="searchUser", type="text", placeholder="Search User", size="30")
+			ul.users
+				li
+					a User1
+				li
+					a User2
+				li 
+					a User3
+		div.column
+			h3 Active Groups
+			input.search(id="searchGroup", type="text", placeholder="Search Group", size="30")
+			ul.groups
+				li.item
+					a Group1
+					ul.group
+						li
+							span G1 User1
+						li
+							span G1 User2
+						li
+							span G1 User3
+				li.item
+					a Group2
+					ul.group
+						li
+							span G2 User1
+						li
+							span G2 User2
+						li
+							span G2 User3
+				li.item
+					a Group2
+					ul.group
+						li
+							span G2 User1
+						li
+							span G2 User2
+						li
+							span G2 User3
+				li.item
+					a Group2
+					ul.group
+						li
+							span G2 User1
+						li
+							span G2 User2
+						li
+							span G2 User3
+			

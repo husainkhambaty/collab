@@ -1,0 +1,6 @@
+## End points
+POST /logout   // destroys session and redirects to /
+GET  /login    // gets the webpage that has the login form
+POST /login    // authenticates credentials against database and either redirects home with a new session or redirects back to /login
+GET  /user/xxx // gets and renders current user data in a profile view
+POST /user/xxx // updates new information about user

@@ -1,0 +1,14 @@
+extends layout
+block content
+	div.chatroom.full
+		div.messages
+			ul.chat
+				li.message.me
+					span Hello
+				li.message
+					span Hi
+		div.controls
+			input.chat(type="text", id="txtChat", placeholder="Type text here")
+			input.send.btn.btn-default(type="submit", id="btnSend", value="Send")
+
+

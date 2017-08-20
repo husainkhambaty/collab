@@ -1,0 +1,30 @@
+{
+  "name": "collab",
+  "version": "1.0.0",
+  "description": "Collaboration app using Nodejs and Socket.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/husainkhambaty/collab.git"
+  },
+  "author": "Husain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/husainkhambaty/collab/issues"
+  },
+  "homepage": "https://github.com/husainkhambaty/collab#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-session": "^1.15.5",
+    "jade": "^1.11.0",
+    "mongoose": "^4.11.7",
+    "nodemon": "^1.11.0",
+    "socket.io": "^1.5.1",
+    "stylus": "^0.54.5"
+  }
+}

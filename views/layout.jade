@@ -1,0 +1,28 @@
+doctype html
+html
+	head
+		title #{title}
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		link(href="css/bootstrap.min.css", rel="stylesheet")
+
+		link(rel="stylesheet", href="css/style.css")
+		
+		
+		// Custom scripts
+		
+	body
+		div.container
+			div.header.section
+				h2.page-title #{title}
+
+			div.body.section
+				block content
+
+			div.footer.section
+
+
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")        
+		script(src="js/bootstrap.min.js")
+		script(src="/socket.io/socket.io.js")
+		script(src="js/script.js")
+		
